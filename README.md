@@ -14,9 +14,9 @@
     <br>
   </header>
 <div> 
-  <img src="Logo/logo_psh.png" alt="Logo Toko" class="logo">
-  <img src="logo/logo_TKJ.png" alt="logo sekolah" class="logo_TKJ">
-  <img src="Logo/logo_SMK.png" alt="Logo Toko" class="logo_SMK">
+  <img src="logo_psh.png" alt="Logo Toko" class="logo">
+  <img src="logo_TKJ.png" alt="logo sekolah" class="logo_TKJ">
+  <img src="logo_SMK.png" alt="Logo Toko" class="logo_SMK">
   </div>
   
   <main class="container">
