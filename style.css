@@ -1,0 +1,107 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #87CEEB;
+  color: black;
+  text-align: center;
+  padding: 18px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.produk {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 15px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.produk:hover {
+  transform: translateY(-5px);
+}
+
+.produk img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produk h3 {
+  margin: 10px 0;
+}
+
+.produk p {
+  font-size: 14px;
+  color: #666;
+}
+
+.harga {
+  font-size: 18px;
+  color: #ff6600;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff6600;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #cc5200;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+.logo {
+  position: absolute;
+  top: -20px;    
+  left: 250px;
+  width: 150px;  
+  height: auto; 
+}
+.logo_TKJ {
+  position: absolute;
+  top: 3px;    
+  left: 130px;
+  width: 40px;  
+  height: auto; 
+}
+.logo_SMK {
+  position: absolute;
+  top: 1px;    
+  left: 175px;
+  width: 40px;  
+  height: auto; 
+}
+}
